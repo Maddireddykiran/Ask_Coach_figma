@@ -1068,7 +1068,7 @@ Remember: ALWAYS respond in English regardless of the input language.`;
       const forceNewPrompt = `${combinedPrompt}\n\nTimestamp: ${timestamp}`;
 
       console.log('Sending API request to backend...');
-      const response = await fetch('http://127.0.0.1:5000/chat', {
+      const response = await fetch('https://ask-our-coach.onrender.com/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
