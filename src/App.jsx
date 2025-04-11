@@ -1306,7 +1306,7 @@ Remember: ALWAYS respond in English regardless of the input language.`;
     <div className="ai-coach-container">
         
       <h1>
-        Ask Your Elefit AI Coach
+        Ask Our EleFit AI Coach
       </h1>
 
       <div className="input-section">
